@@ -1,0 +1,123 @@
+.hero-section{
+    align-items: center;
+    content-visibility: auto;
+    display: flex;
+    height: 200vh;
+    height: -webkit-fill-available;
+    justify-content: center;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+/* ----------------------------------------------visivility hidden--------------------------------------- */
+.hero{
+    visibility: hidden;
+    border: 0;
+    opacity: 0;
+    /* z-index: 3;
+    background-position: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 47.7777777778vh;
+    pointer-events: none;
+    position: absolute;
+    width: 47.7777777778vh; */
+}
+
+/* -----------------------------------------------First Div----------------------------------------------- */
+
+
+.home-projects__square{
+    visibility: visible;
+    border: 0.25rem solid #ae0000;
+    opacity: 1;
+    z-index: 3;
+    background-position: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 47.7777777778vh;
+    pointer-events: none;
+    position: absolute;
+    width: 47.7777777778vh;
+}
+
+.home-project__text{
+    /* visibility: hidden; */
+    font-size: calc(1rem + 8vw);
+    line-height: 1;
+    margin: 0;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 3;
+}
+
+
+
+/* --------------------------------------second div------------------------------------------------------- */
+.hero-section-2{
+    /* align-items: center;
+    content-visibility: auto;
+    display: flex;
+    height: 100vh;
+    height: -webkit-fill-available;
+    justify-content: center;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    overflow-y: scroll;
+    scroll-behavior: smooth; */
+}
+
+
+
+/* -------------------------------------------------scroller-------------------------------------------- */
+
+.home-scroller{
+    opacity: 1;
+    height: 100vh;
+    pointer-events: none;
+    position: fixed;
+    right: 1.875rem;
+    top: 0;
+    width: 0.625rem;
+}
+
+.home-scroller .scroller{
+    height: 70%;
+    margin-top: 15vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroller .scroll-tracker{
+    height: 100%;
+    pointer-events: auto;
+    width: 100%;
+    opacity: 0.5;
+    background-color: rgb(171 20 69);
+}
+
+.home-scroller .scroll-bar{
+    background: #39c1a2;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* transform: translate3d(0px, -382.064px, 0px); */
+}
+
+.home-main{
+    height: 200vh;
+}
+
+.content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }

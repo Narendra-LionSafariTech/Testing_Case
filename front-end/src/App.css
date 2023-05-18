@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  /* font-size: 15px; */
+}
+
+
+/* @media (max-width:"768px"){
+  html{
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:"425px"){
+  html{
+    font-weight: 400;
+    font-size: 12px;
+  }
+} */
+/* --------------------------------------responsive page design-------------------------------------------- */
+.main-layout{
+  background: linear-gradient(to top right, #467491, #0ab4ac, #71679c);
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+.layout-header{
+  border: 1px solid;
+  min-height: 33vh;
+
+}
+
+.layout-header .layout-navbar{
+  border: 1px solid red;
+  height: 13vh;
+}
+
+.layout-header .hero-banner{
+  border: 1px solid black;
+  height:20vh;
+
+
+}
+
+.layout-main{
+  width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-grow: 1 1 100px;
+}
+
+.layout-main .sidebar{
+  background-color: #0ab4ac;
+  width: 20%;
+  border:  1px solid green;
+  height: 65vh;
+}
+.layout-main .sidebar-close{
+  transition: all .5sec ease;
+  display: none;
+
+}
+
+.layout-main .content{
+  width: 80%;
+}
+
+.layout-main .stretch-content{
+  width: 100%;
+}
+
+/* -----------------------------------------sidebar--------------------------------------------------------- */
+.sidebar .sidebar-header{
+  background-color: black;
+}
+ 
+
+
+
+
+
+
+/* ----------------------------------------content---------------------------------------------------------- */
+.content .content-header{
+  background-color: black;
+  width: 100%;
+}
+
+.stretch-content .content-header{
+  background-color: black;
+  width: 100%;
+}
+
+
+
+
+
+
+

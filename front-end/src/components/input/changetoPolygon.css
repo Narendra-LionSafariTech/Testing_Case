@@ -1,0 +1,12 @@
+.changetoPolygon input {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #f1f1f1;
+    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+    transition: clip-path 0.5s ease-in-out;
+  }
+
+ .changetoPolygon input:focus {
+    clip-path: polygon(5% 0%, 90% 0%, 100% 30%, 100% 90%, 90% 100%, 5% 100%, 0% 70%, 0% 50%);
+  }

@@ -1,0 +1,44 @@
+.image-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+  }
+  
+  .image-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-card-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .image-card:hover img {
+    transform: scale(1.2);
+  }
+  
+  .image-card-content {
+    padding: 16px;
+  }
+  
+  .image-card h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .image-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
